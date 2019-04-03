@@ -3,7 +3,7 @@ export default class Shard {
   public y: number;
   public angle: number = Math.PI * 2 - (Math.random() * Math.PI * 2);
   public glow: number = 1;
-  public speed: number = 2 + Math.random() * 1;
+  public speed: number = 0.4 + Math.random() * 3;
   public ySpeed: number = -Math.cos(this.angle) * this.speed;
   private ctx: CanvasRenderingContext2D;
   private size: number = 5;
