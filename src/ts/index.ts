@@ -14,7 +14,7 @@ ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 const fireworks: Firework[] = [];
 const shards: Shard[] = [];
-const shardsCountFromFirework: number = 100;
+const shardsCountFromFirework: number = 300;
 let fCounter: number = 0; // counter for launching a firework
 let lFrame: number = 40; // number for launching a firework every this frame
 let aCounter: number = 0; // counter for when to stop launching consecutive fireworks
