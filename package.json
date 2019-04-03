@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Daugardas Lukšas",
   "license": "MIT",
+  "homepage": "https://daugadas.github.io/fireworks/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
